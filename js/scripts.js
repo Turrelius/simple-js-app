@@ -1,19 +1,40 @@
 alert('Hello world');
 
-let favoriteFood = 'Pizza';
-document.write(favoriteFood);
+//let favoriteFood = 'Pizza';
+//document.write(favoriteFood);
 
-let favoriteWord = "flabergasted";
-document.write(favoriteWord);
+//let favoriteWord = "flabergasted";
+//document.write(favoriteWord);
 
-//let simpleAddition = 2 + 2;
-//document.write(simpleAddition);
 
-//let size = 100;
-//let doubleSize = size * 2;
-//document.write(doubleSize);
+//let name = 'Pablo';
+  //   let age = 35;
+    // document.write('My name is ' + name + ' and I\'m ' + age + ' years old!');
+    //console.log('My name is ' + name + ' and I\'m ' + age + ' years old!');
 
-let size = 150;
-let doubleSize = size * 3;
-let minSize = (doubleSize * 2) - (size / 2);
-document.write(minSize);
+let pokemonList {
+
+    name: 'Sandshrew',
+    height: 6,
+    types: ['ground'],
+    category: 'mouse'
+  },
+  {
+    name: 'Kabutops',
+    height: 13,
+    types: ['water', 'rock'],
+    category: 'Shell Pokémon'
+  },
+  {
+      name: 'Scyther',
+    height: 15,
+    types: ['bug','flying'],
+    category: 'Praying Mantis Pokémon'
+  },
+  {
+    name: 'Zoroark',
+    height: 2,
+    types: ['dark'],
+    category: 'Illusory Fox Pokémon'
+  },
+  ];
