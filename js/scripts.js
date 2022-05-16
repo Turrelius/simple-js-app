@@ -14,27 +14,27 @@ alert('Hello world');
 
 let pokemonList {
 
-    name: 'Sandshrew',
+    name: "Sandshrew",
     height: 6,
-    types: ['ground'],
-    category: 'mouse'
+    types: ["ground"],
+    category: "mouse"
   },
   {
-    name: 'Kabutops',
+    name: "Kabutops",
     height: 13,
-    types: ['water', 'rock'],
-    category: 'Shell Pokémon'
+    types: ["water", "rock"],
+    category: "Shell Pokémon"
   },
   {
-      name: 'Scyther',
+      name: "Scyther",
     height: 15,
-    types: ['bug','flying'],
-    category: 'Praying Mantis Pokémon'
+    types: ["bug","flying"],
+    category: "Praying Mantis Pokémon"
   },
   {
-    name: 'Zoroark',
+    name: "Zoroark"
     height: 2,
-    types: ['dark'],
-    category: 'Illusory Fox Pokémon'
+    types: ["dark"],
+    category: "Illusory Fox Pokémon"
   },
   ];
