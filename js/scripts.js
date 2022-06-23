@@ -1,25 +1,28 @@
-alert('Hello world');
+alert('Hello pokemon fans!!');
 
-//let favoriteFood = 'Pizza';
-//document.write(favoriteFood);
-
-//let favoriteWord = "flabergasted";
-//document.write(favoriteWord);
-
-
-//let name = 'Pablo';
-  //   let age = 35;
-    // document.write('My name is ' + name + ' and I\'m ' + age + ' years old!');
-    //console.log('My name is ' + name + ' and I\'m ' + age + ' years old!');
-
+//variable called "pokemonList" that is an array of objects
 let pokemonList = [
-// pokemon objects
 ];
 //simple loop that iterates over each item in pokemonList.
 //I used document.write() inside the loop’s code to write the Pokémon name on my website’s DOM
 for (let i = 0; i < pokemonList.length; i++){
-  document.write(pokemonList[i].name + " ");
-}
+   // First print the pokemon name and height
+   document.write(
+     pokemonList[i].name + " (Height: " + pokemonList[i].height + ")"
+   );
+ // run statement that checks if the pokemons height is over 14
+   if (pokemonList[i].height > 14) {
+     // If it is over 14 then print " - Wow, that's big !" with two line breaks to separate the pokemon
+     document.write(" - Wow, that's big !" + "</br>" + "</br>");
+   } else
+   if (pokemonList[i].height < 14) {
+     // If it is less than 14 then print " - Oboy,thats small !" with two line breaks to separate the pokemon
+     document.write(" - Oboy, that's small !" + "</br>" + "</br>");
+   } else {
+     // If the pokemon height is not over 14 then print two line breaks to separate the pokemon
+     document.write("</br>" + "</br>");
+   }
+ }
       {
         name: "Sandshrew",
         height: 6,
