@@ -1,4 +1,4 @@
-alert('Hello pokemon fans!!');
+alert ('Hello pokemon fans!!');
 
 //variable called "pokemonList" that is an array of objects
 let pokemonList = [
